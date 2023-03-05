@@ -9,12 +9,12 @@ import uuid
 os.system('git pull')
 os.system('pkg install curl')
 
-logo = (""""\033[132m   _____  .____    .______________
+logo = (""""\033[132m_____  .____    .______________
   /  _  \ |    |   |   \_   _____/
  /  /_\  \|    |   |   ||    __)  
 /    |    \    |___|   ||     \   
 \____|__  /_______ \___|\___  /   
-        \/        \/        \/    [1;37m\n""")
+        \/        \/        \/  \033[1;37m\n""")
 def ud():
     os.system('clear')
     jalan(logo)
@@ -22,7 +22,7 @@ def ud():
     print(' [2] EXIT')
     opt = input('\n   CHOOSE OPTION >>>\033[1;37m ')
     if opt == '1':
-        os.system('xdg-open ')
+        os.system('xdg-open https://youtube.com/channel/UCqmAeJg_2YaF9q_zFIxwSlQ')
         FD()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -35,7 +35,7 @@ def FD():
     print(' [2] EXIT')
     opt = input('\n  \x1b[1;32m CHOOSE OPTION >>> ')
     if opt == '1':
-        os.system('xdg-open )
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100075160338795')
         o()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -156,13 +156,12 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-logo = ("""\033[132m🅁①🄵④🅃
-\033[1;32m_____  .____    .______________
+logo = ("""\033[132m_____  .____    .______________
   /  _  \ |    |   |   \_   _____/
  /  /_\  \|    |   |   ||    __)  
 /    |    \    |___|   ||     \   
 \____|__  /_______ \___|\___  /   
-        \/        \/        \/    \033[1;37m\n""")
+        \/        \/        \/  \033[1;37m\n""")
 loop = 0
 oks = []
 cps = []
